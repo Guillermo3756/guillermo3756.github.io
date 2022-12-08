@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="imagen uno">
+
+            </div>
+            <h1>dinosaurio 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="boton">
+                <p>action</p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="imagen dos">
+                
+            </div>
+            <h1>dinosaurio 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="boton">
+                <p>action</p>
+            </div>
+
+        </div><div class="tarjeta">
+            <div class="imagen tres">
+                
+            </div>
+            <h1>dinosaurio 3</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="boton">
+                <p>action</p>
+            </div>
+
+        </div><div class="tarjeta">
+            <div class="imagen cuatro">
+
+            </div>
+            <h1>dinosaurio 4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="boton">
+                <p>action</p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+
+    }
+    /*body {
+        background-color: grey;
+    }*/
+    .tarjeta {
+        width: 25%;
+        background-color: white;
+        padding: 16px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        transition: 300ms;
+        box-shadow: 2px 2px 16px rgb(97, 96, 96);
+
+    }
+    .tarjeta:hover {
+        transform: scale(1.05);
+    }
+    .imagen {
+        width: 100%;
+        aspect-ratio: 16/9;
+        background-color: lightgray;
+        border-radius: 16px;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+    }
+    .boton {
+        background-color: steelblue;
+        border-radius: 16px;
+        padding: 16px 0;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    .contenedor {
+        display: flex;
+        gap: 8px;
+        padding: 8px;
+    }
+    .uno {
+        background-image: url("img/descarga.jpg");
+    
+    }
+    .dos {
+        background-image: url("img/descarga\ \(1\).jpg");
+    }
+    .tres {
+        background-image: url("img/descarga\ \(2\).jpg");
+    }
+    .cuatro {
+        background-image: url("img/descarga\ \(3\).jpg");
+    }
+</style>
