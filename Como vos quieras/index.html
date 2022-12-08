@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disculpame</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="izquierda">
+            <div class="Logo">
+                <p><img src="descarga.png" alt="logo" width="96px" height="32px" ></p>
+            </div>
+
+            <div class="menu">
+                <b><p>PRODUCTOS</p></b>
+                <b><P>LO NUEVO</P></b>
+                <b><P>SERVICIOS</P></b>
+            </div> 
+        </div>
+        
+       <div class="icons">
+            <div class="boton1">
+                <img src="img_379085.png" alt="boton1" width="16px" height="16px">
+            </div>
+            <div class="boton2">
+                <img src="purchase.png" alt="boton2" width="16px" height="16px">
+            </div>
+            <div class="boton3">
+                <img src="lupa.png" alt="boton3" width="16px" height="16px">
+            </div>
+        </div>
+  
+    </div>
+
+    <div class="banner">
+        <p><img src="banner.jpeg" alt="banner" width="100%"></p>
+    </div>
+
+    <div class="fila">
+        <div class="caja registro">
+            <h1>Registro de productos</h1>
+            <p>Para disfrutar de beneficios, promociones y eventos</p>
+
+        </div>
+        <div class="caja soporte">
+            <h1>Soporte</h1>
+            <p>Servicios personalizados especialmente para tí</p>
+        </div>
+    </div>
+    
+    <div class="fila chica">
+        <div class="caja foro">
+            <h3>Foro MSI</h3>
+        </div>
+        <div class="caja reward">
+            <h3>Msi reward program</h3>
+        </div>
+        <div class="caja video">
+            <h3>Video</h3>
+        </div>
+        <div class="caja insider">
+            <h3>MSI insider</h3>
+        </div>
+    </div>   
+</body>
+
+</html>
+
+<style>
+    body {
+        background-color: white;
+        padding-top: 72px;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        width: 100%;
+        height: 72px;
+        background-color: white;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+        padding: 24px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .menu {
+        display: flex;
+        gap: 16px;
+        color: gray;
+    }
+    .icons {
+        display: flex;
+        gap: 32px;
+    }
+    .izquierda {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+    .banner {
+        margin-bottom: 4px;
+        padding-bottom: 8px;
+        background-color: #222;
+    }
+    .fila {
+        width: 100%;
+        display: flex;
+        gap: 4px;
+        height: 50vh;
+        margin-bottom: 4px;
+
+    }
+    .chica {
+        height: 33vh;
+    }
+    
+    .caja {
+        height: 100%;
+        width: 100%;
+        background-color: gray;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .registro {
+        background-image: url("product_registration.jpg");
+    }
+    .soporte {
+        background-image: url("support_service_location.jpg");
+    }
+    .foro {
+        background-image: url("forum.jpg");
+    }
+    .reward {
+        background-image: url("reward.jpg");
+    }
+    .video {
+        background-image: url("video.jpg");
+    }
+    .insider {
+        background-image: url("insider.jpg");
+    }
+</style>
