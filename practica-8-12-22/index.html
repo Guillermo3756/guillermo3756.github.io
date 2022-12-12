@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="formulario">
+        <h1>Whats on your mind?</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing <br> 
+            Quidem iure animi minima tempora ad? Alias esse dolorem tempora minima sequi? <br>
+             Nihil illo est sapiente quisquam iusto dolore deleniti ad illum?</p>
+        
+        <div class="row">
+            <div class="formField">
+                <label for="Nombre">Nombre</label>
+                <input class="Nombre" name="Nombre" type="text">
+            </div>
+            
+            <div class="formField">
+                <label for="Apellido">Apellido</label>
+                <input class="Apellido" name="Apellido" type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="formField">
+                <label for="Email">Email</label>
+                <input class="Email" name="Email" type="text" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="formField">
+                <label for="Message">Mensaje</label>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="ingrese su mensaje"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="formField">
+                <input class="button" type="button" value="SEND MESSAGE">
+            </div>  
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>
+
+<style>
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+        background-color: #2a5a8a;
+    }
+    
+    .formulario {
+        width: 50%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .formulario h1, .formulario p{
+        text-align: center;
+    }
+
+    .row {
+        width: 100%;
+        display: flex;
+        gap: 32px;
+        margin-bottom: 8px;
+    }
+
+    .formField, input, textarea {
+        width: 100%;
+        background-color: transparent;
+    }
+    .button {
+        width: initial;
+        margin: 0 auto;
+        display: block;
+        border-radius: 4px;
+        background-color: rgb(233, 173, 44);
+        border: 0;
+        color: white;
+        padding: 8px 24px;
+        font-weight: bold;
+    }
+    input, textarea {
+        border: 1px solid white;
+        padding: 16px;
+        border-radius: 4px;
+        color: white;
+    }
+    label {
+        display: block;
+        margin-bottom: 24px;
+        font-weight: bold;
+    }
+    
+
+
+</style>
